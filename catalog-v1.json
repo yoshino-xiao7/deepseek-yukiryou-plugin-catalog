@@ -1,5 +1,86 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-08-23.1",
-  "items": []
+  "revision": "2026-08-24.1",
+  "items": [
+    {
+      "id": "dsh-dream-skin",
+      "displayName": "dsh-dream-skin",
+      "summary": "DeepSeek Harness 换肤插件，提供多套主题、壁纸、强调色与主题包分享能力。",
+      "repository": "https://github.com/RevolutionLA/dsh-dream-skin",
+      "categories": ["skin", "ui"],
+      "publisher": { "name": "RevolutionLA" },
+      "package": { "name": "dsh-dream-skin", "version": "0.4.10" },
+      "verification": {
+        "status": "installed",
+        "testedAt": "2026-08-24T01:45:42.504Z",
+        "harnessVersion": "0.1.1-rc.2",
+        "platforms": ["darwin-arm64"],
+        "notes": "DeepSeek YukiRyou 1.0.0 managed install, Host restart, Runtime ready, and trial commit passed on macOS Apple Silicon."
+      }
+    },
+    {
+      "id": "dsh-context",
+      "displayName": "dsh-context",
+      "summary": "提供上下文组成、Token 使用与上下文演变的查看和管理能力。",
+      "repository": "https://github.com/bowenliang123/dsh-context",
+      "categories": ["agent", "tools"],
+      "publisher": { "name": "bowenliang123" },
+      "package": { "name": "dsh-context", "version": "0.29.0" },
+      "verification": {
+        "status": "installed",
+        "testedAt": "2026-08-24T01:46:18.635Z",
+        "harnessVersion": "0.1.1-rc.2",
+        "platforms": ["darwin-arm64"],
+        "notes": "DeepSeek YukiRyou 1.0.0 managed install, Host restart, Runtime ready, and trial commit passed on macOS Apple Silicon."
+      }
+    },
+    {
+      "id": "dsh-chat-import",
+      "displayName": "dsh-chat-import",
+      "summary": "将 Claude Code、Codex、ChatGPT、Cursor、Gemini 等工具的对话历史导入为可继续的 Harness 会话。",
+      "repository": "https://github.com/Nwflower/dsh-chat-import",
+      "categories": ["tools", "session"],
+      "publisher": { "name": "Nwflower" },
+      "package": { "name": "dsh-chat-import", "version": "0.7.0" },
+      "verification": {
+        "status": "installed",
+        "testedAt": "2026-08-24T01:47:29.488Z",
+        "harnessVersion": "0.1.1-rc.2",
+        "platforms": ["darwin-arm64"],
+        "notes": "DeepSeek YukiRyou 1.0.0 managed install, Host restart, Runtime ready, and trial commit passed on macOS Apple Silicon."
+      }
+    },
+    {
+      "id": "dsh-agent-teams",
+      "displayName": "dsh-agent-teams",
+      "summary": "为 DeepSeek Harness 提供队长、成员、依赖任务、消息通信与树形监控等多 Agent 团队协作能力。",
+      "repository": "https://github.com/NanmiCoder/dsh-agent-teams",
+      "categories": ["agent", "collaboration"],
+      "publisher": { "name": "NanmiCoder" },
+      "package": { "name": "@nanmicoder/dsh-agent-teams", "version": "0.1.13" },
+      "verification": {
+        "status": "installed",
+        "testedAt": "2026-08-24T02:03:24.807Z",
+        "harnessVersion": "0.1.1-rc.2",
+        "platforms": ["darwin-arm64"],
+        "notes": "DeepSeek YukiRyou 1.0.0 managed install, Host restart, Runtime ready, and trial commit passed on macOS Apple Silicon."
+      }
+    },
+    {
+      "id": "modsearch",
+      "displayName": "modsearch",
+      "summary": "为缺少原生联网能力的 Agent 提供网页搜索、X 搜索与页面抓取能力。",
+      "repository": "https://github.com/liustack/modsearch",
+      "categories": ["agent", "search"],
+      "publisher": { "name": "liustack" },
+      "package": { "name": "@liustack/modsearch", "version": "5.9.0" },
+      "verification": {
+        "status": "installed",
+        "testedAt": "2026-08-24T01:54:56.982Z",
+        "harnessVersion": "0.1.1-rc.2",
+        "platforms": ["darwin-arm64"],
+        "notes": "DeepSeek YukiRyou 1.0.0 managed install, enable-disable cycle, Host restart, Runtime ready, and trial commit passed on macOS Apple Silicon."
+      }
+    }
+  ]
 }
