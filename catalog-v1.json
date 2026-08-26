@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-08-24.1",
+  "revision": "2026-08-26.1",
   "items": [
     {
       "id": "dsh-dream-skin",
@@ -80,6 +80,22 @@
         "harnessVersion": "0.1.1-rc.2",
         "platforms": ["darwin-arm64"],
         "notes": "DeepSeek YukiRyou 1.0.0 managed install, enable-disable cycle, Host restart, Runtime ready, and trial commit passed on macOS Apple Silicon."
+      }
+    },
+    {
+      "id": "dsh-grok-provider",
+      "displayName": "dsh-grok-provider",
+      "summary": "通过 Grok 官方 CLI 浏览器 OAuth 接入账户可见模型，并提供流式工具调用、模型能力与额度刷新信息。",
+      "repository": "https://github.com/yoshino-xiao7/dsh-grok-provider",
+      "categories": ["model", "usage"],
+      "publisher": { "name": "yoshino-xiao7" },
+      "package": { "name": "dsh-grok-provider", "version": "0.1.0" },
+      "verification": {
+        "status": "installed",
+        "testedAt": "2026-08-26T05:02:10.000Z",
+        "harnessVersion": "0.1.1-rc.2",
+        "platforms": ["darwin-arm64"],
+        "notes": "Exact 0.1.0 artifact managed install and real-account smoke passed on macOS Apple Silicon: official CLI browser OAuth, dynamic model discovery, streaming chat, tool calls, and quota dashboard. The npm Registry tarball matched the tested GitHub Release artifact by SHA-256 and SHA-512."
       }
     }
   ]
