@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-08-26.1",
+  "revision": "2026-08-29.1",
   "items": [
     {
       "id": "dsh-dream-skin",
@@ -96,6 +96,22 @@
         "harnessVersion": "0.1.1-rc.2",
         "platforms": ["darwin-arm64"],
         "notes": "Exact 0.1.0 artifact managed install and real-account smoke passed on macOS Apple Silicon: official CLI browser OAuth, dynamic model discovery, streaming chat, tool calls, and quota dashboard. The npm Registry tarball matched the tested GitHub Release artifact by SHA-256 and SHA-512."
+      }
+    },
+    {
+      "id": "dsh-codex-community",
+      "displayName": "dsh-codex-community",
+      "summary": "通过 ChatGPT OAuth 为 DeepSeek Harness 接入 Codex 模型，并提供图片输入、流式回复、工具调用、会话连续性与额度错误处理。",
+      "repository": "https://github.com/yoshino-xiao7/dsh-codex",
+      "categories": ["model", "agent"],
+      "publisher": { "name": "yoshino-xiao7" },
+      "package": { "name": "dsh-codex-community", "version": "0.0.1" },
+      "verification": {
+        "status": "installed",
+        "testedAt": "2026-08-29T06:23:11.000Z",
+        "harnessVersion": "0.1.1-rc.2",
+        "platforms": ["darwin-arm64"],
+        "notes": "Exact 0.0.1 npm package profile install, composed-config resolution, and isolated real Runtime startup smoke passed on macOS Apple Silicon. npm provenance and Registry SHA-512 integrity were verified; real ChatGPT OAuth and Codex network requests were not exercised."
       }
     }
   ]
